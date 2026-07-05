@@ -1,0 +1,6 @@
+{
+  "name": "National Gym",
+  "description": "National Gym (नेशनल जिम) is the premier fitness center in Bhurkunda, Jharkhand, offering top-tier equipment, strength training, weight loss, muscle building, and certified trainers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

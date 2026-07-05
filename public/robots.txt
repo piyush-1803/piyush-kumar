@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nationalgym.in/sitemap.xml

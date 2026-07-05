@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --color-brand-red: #ea580c; /* High energy red-orange */
+  --color-gym-red: #e11d48; /* Energetic crimson/red */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e11d48;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Red Glow effect helper */
+.red-glow {
+  box-shadow: 0 0 20px rgba(220, 38, 38, 0.15);
+}
+.red-glow-strong {
+  box-shadow: 0 0 35px rgba(220, 38, 38, 0.35);
+}
+
+/* Custom animation delay classes */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+
+/* Artistic Flair theme additions */
+.artistic-gradient-bg {
+  background: linear-gradient(135deg, #0a0a0a 0%, #171717 50%, #000000 100%);
+}
+
+.artistic-text-gradient {
+  background: linear-gradient(180deg, #ffffff 30%, #4b5563 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.artistic-border-white {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.artistic-red-box {
+  background-color: rgba(220, 38, 38, 0.03);
+  border: 1px solid rgba(220, 38, 38, 0.15);
+}
+
+
